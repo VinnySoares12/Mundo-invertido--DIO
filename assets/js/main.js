@@ -15,7 +15,6 @@ btnSubscribe.addEventListener('click', async() => {
         email: txtEmail.value,
         level: txtLevel.value,
         character: txtCharacter.value
-
     }
     
     const subscriptionId = await subscribeToHellfireClub(subscription)
